@@ -1,0 +1,140 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background-color: #fce4af;
+    padding: 0px;
+    margin: 0px;
+}
+
+main{
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #fce4af;
+}
+
+main p, ul, ol, a{
+    font-size: 20px;
+}
+
+main h2{
+    font-size: 35px;
+}
+
+main h3{
+    font-size: 23px;
+}
+
+nav ul {
+  list-style: none;    
+  display: flex;              
+  justify-content: center;   
+  gap: 30px;
+  height: 56px;    
+  margin: 0px  0px 50px 0px;
+  padding: 0px;
+  background-color: #333; 
+  color:#fff;   
+  align-items: center;         
+}
+
+
+nav ul li a {
+  text-decoration: none;     
+  color: #fff;   
+  transition: color 0.3s ease; /* transição suave */
+}
+
+nav ul li a:hover {
+  color: #007bff;           
+}
+
+
+.perfil{
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+
+.perfil img{
+    width: 300px;
+    height: 300px;
+}
+
+.sobremim{
+    float: right;
+    width: 1160px;
+    height: 400px;
+}
+
+.habilidades{
+    float: left;
+    width: 400px;
+    height: 450px;
+}
+
+.habilidades p {
+  display: inline-block;   /* Faz o fundo acompanhar só o tamanho do texto */
+  background-color: #333;  
+  color: #fff;             
+  padding: 6px 12px;       /* Espaço interno (ficar tipo "tag") */
+  border-radius: 20px;     /* Fundo arredondado */
+  margin: 5px;             /* Espaço entre os itens */
+}
+
+
+.projetos{
+    float: right;
+    width: 1160px;
+    height: 450px;
+}
+
+
+.projetos img{
+    position:absolute;
+    left: 1300px;
+    bottom: 0px;
+    top: 550px;
+}
+
+.projetos a {
+    text-decoration: none;     
+    color: #333; 
+}
+
+.projetos a:hover {
+  color: #007bff;           
+}
+
+.contato{
+    display: inline-block;              
+    justify-content: left;   
+    height: 56px;    
+    padding: 0px;
+    align-items: center;         
+}
+
+.contato img, a{
+    width: 96px;
+    height: 96px;
+    margin: 0px  10px 50px 0px;
+    text-decoration: none;
+}
+
+
+footer {
+  margin: 50px 0 20px 0;
+  text-align: center;
+}
+
+footer .voltar {
+  margin-top: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .voltar:hover {
+  color: #0056b3;
+}
